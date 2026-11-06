@@ -193,8 +193,9 @@ Ensure the following are installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <https://github.com/phishinchips67-lang/tick-tracker-uk-marmik-joshi>
-cd tick-tracker
+git clone https://github.com/phishinchips67-lang/tick-tracker-uk-marmik-joshi
+cd tick-tracker-uk-marmik-joshi
+
 ```
 
 ### 2. Install Dependencies
