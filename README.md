@@ -1,6 +1,7 @@
 # 🕷️ Tick Tracker - Full-Stack MVP
 
 **Author:** Marmik Joshi
+
 **Video Walkthrough:** https://drive.google.com/file/d/1-Cn9hIbDKmFXp2b_DauZFKBCAhSe1HXw/view?usp=sharing
 
 A full-stack web application developed for the **Elanco Placement Program Technical Task**.
