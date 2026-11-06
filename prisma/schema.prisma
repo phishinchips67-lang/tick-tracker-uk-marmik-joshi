@@ -1,0 +1,24 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Sighting {
+  id        String   @id              // external id, or generated UUID for user reports
+  source    String   @default("external") // "external" | "user"
+  date      DateTime
+  location  String                     // city name
+  species   String
+  latinName String
+  lat       Float?
+  lng       Float?
+  imageUrl  String?
+  createdAt DateTime @default(now())
+
+  @@index([date])
+  @@index([location])
+  @@index([species])
+}

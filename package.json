@@ -1,0 +1,42 @@
+{
+  "name": "tick-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "sync": "tsx scripts/sync.ts",
+    "postinstall": "prisma skills sync || exit 0"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^7.0.3",
+    "@prisma/adapter-better-sqlite3": "^7.10.1",
+    "better-sqlite3": "^13.0.3",
+    "date-fns": "^4.4.0",
+    "leaflet": "^1.9.4",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "^7.91.0",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.10.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@prisma/client": "^7.10.1",
+    "@tailwindcss/turbopack": "^4",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "dotenv": "^18.0.9",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "prisma": "^7.10.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  }
+}
