@@ -193,7 +193,7 @@ Ensure the following are installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/phishinchips67-lang/tick-tracker-uk-marmik-joshi>
 cd tick-tracker
 ```
 
